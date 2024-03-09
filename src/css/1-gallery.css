@@ -1,0 +1,26 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  }
+
+.gallery-item {
+  margin: 4px;
+}
+
+.gallery-link {
+  text-decoration: none;
+}
+
+.gallery-image {
+  object-fit: cover;
+  width: 600px;
+  height: 600px;
+}
+
+@media only screen and (min-width: 1900px) {
+   .artist{
+    padding: 24px 0;
+    margin: auto;
+  }
+  }
